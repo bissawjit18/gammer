@@ -1,0 +1,14 @@
+.btn-primary{
+    border-radius: 20px;
+    background-color: #d21088eb;
+    color: white;
+    font-size: 14px;
+    padding: 5px 7px;
+}
+.btn-one{
+    border-radius: 20px;
+    background-color: #10a5d2eb;
+    color: white;
+    font-size: 14px;
+    padding: 5px 7px;
+}

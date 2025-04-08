@@ -1,13 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gammer</title>
     <link rel="stylesheet" href="style.css">
-    
+    <!-- Tailwind cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/c25e1ed245.js" crossorigin="anonymous"></script>
+
+    <!-- Google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        * {
+            margin: 0 auto;
+            box-sizing: border-box;
+            /* font-family: 'Gilroy'; */
+
+        }
+
+        html,
+        body {
+            max-width: 1224px;
+            /* min-width: none; */
+            /* height: 100%; */
+            /* width: 100%; */
+            /* background-color: aliceblue; */
+        }
+
+        body {
+            background-color: aliceblue;
+            font-family: "Roboto Mono", monospace;
+        }
+    </style>
 </head>
+
 <body>
-    Hello
+    <header>
+        <nav class="flex justify-around py-5 bg-slate-300">
+            <div class="flex gap-2"><img class="w-8" src="images/Frame.png" alt=""> <a class="text-3xl font-bold "
+                    href="#">Gamer</a></div>
+            <div>
+                <a class="pl-4" href="">About Us</a>
+                <a class="pl-4" href="">Developers</a>
+                <a class="pl-4" href="">Follow Us On </a>
+            </div>
+        </nav>
+
+        <div class="w-full flex items-center py-22">
+            <div class="w-1/2 flex flex-col">
+                <h2 class="text-2xl">PLAY LIKE THE <br> <span class="text-pink-400 font-bold text-3xl">G.O.A.T</span>
+                </h2>
+                <div class="py-2">
+                    <p class="py-1"><i class="fa-solid fa-circle-check"></i> 1-click instant play</p>
+                    <p class="py-1"><i class="fa-solid fa-download"></i> No Download</p>
+                    <p class="py-1"><i class="fa-solid fa-user-plus"></i> 1000s of support online games</p>
+                </div>
+                <div class="flex justify-between w-3/4 ">
+                    <button class="btn-primary">SIGN IN</button>
+                    <button class="btn-one">GO ROGUE</button>
+                </div>
+            </div>
+
+            <!-- Banner Image -->
+            <div>
+                <img class="w-2/4" src="images/Group 18.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- We are gamer -->
+        <section>
+
+        </section>
+
+        <!-- Online Games -->
+        <section>
+
+        </section>
+
+
+    </main>
 </body>
+
 </html>
