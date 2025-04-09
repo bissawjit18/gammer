@@ -16,3 +16,7 @@ button:hover{
     cursor: pointer;
 }
 
+.sponser-card:hover{
+    border: 2px solid palevioletred;
+    cursor: pointer;
+}
